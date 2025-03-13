@@ -156,7 +156,7 @@ h2 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  background: #3fa33d82;
+  background: #583da382;
 }
 
 .button-52:after {
@@ -183,8 +183,13 @@ h2 {
 }
 @media (max-width: 768px) {
     .button-52 {
-      padding: 0px 20px 0px;
+      padding: 15px 20px 0px;
       font-size: 9px;
+      margin-right: 10px;
+
+    }
+    .res-btn{
+        display: none;
     }
   }
 .scroll-container {
@@ -496,6 +501,7 @@ footer {
     border: 1px solid;
     box-shadow: 4px 4px wheat;
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 .exp-date{
     padding: 10px 5px;
@@ -683,7 +689,7 @@ footer {
 }
 @media (max-width:768px){
     .card__container {
-        margin-top: 120px;
+        margin-top: 46px;
     }
     .container{
         margin-top: 1014px;
